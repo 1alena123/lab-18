@@ -64,7 +64,8 @@ public class NotePad {
         exitMenuItem.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                new ExсitDialog();
+
+                System.exit(0);
             }
         });
 
